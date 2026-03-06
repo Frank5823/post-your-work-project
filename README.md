@@ -18,7 +18,7 @@ enjoy
 
 ## Contribution guidelines
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+If you like to add more cities, or more statistics, feel free to extend the bikeshare.py file
 
 
 ## Date created
