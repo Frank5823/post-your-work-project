@@ -14,7 +14,7 @@ As user:
 - Choose a city
 - Choose a filter (month,day, both, none) 
 - (optional) Select month, or day
-enjoy
+enjoy and have fun
 
 ## Contribution guidelines
 
