@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 #lists of possible entries to filter the available data
+#theese are needed to filter by the users input
 cities =["chicago","new york city", "washington"]
 days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
 months=["january","february","march","april","may","june","july","august","september", "october","november","december"]
@@ -70,7 +71,6 @@ def load_data():
     if day != 'all':
         df = df[df['day_of_week'].str.lower() == day]
     
-    print(df.head())
     return df, city, month, day
 
  #   Args:
