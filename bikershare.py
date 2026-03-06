@@ -71,7 +71,6 @@ def load_data():
     if day != 'all':
         df = df[df['day_of_week'].str.lower() == day]
     
-    print(df.head())
     return df, city, month, day
 
  #   Args:
